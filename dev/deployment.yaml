@@ -14,7 +14,7 @@ spec:
         app: hello-world
     spec:
       containers:
-      - image: ramakrishna8254/week:v1
+      - image:  bitnami/tomcat:8.5.85
         name: hello-world
         ports:
         - containerPort: 80
