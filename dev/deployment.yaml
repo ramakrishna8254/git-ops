@@ -14,7 +14,7 @@ spec:
         app: hello-world
     spec:
       containers:
-      - image: nanajanashia/argocd-app:1.2
+      - image: rancher/hello-world:v0.1.2
         name: hello-world
         ports:
         - containerPort: 80
