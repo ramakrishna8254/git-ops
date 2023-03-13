@@ -14,7 +14,7 @@ spec:
         app: hello-world
     spec:
       containers:
-      - image: hello-world:nanoserver-ltsc2022
+      - image: nanajanashia/argocd-app:1.2
         name: hello-world
         ports:
         - containerPort: 80
