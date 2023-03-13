@@ -13,8 +13,14 @@ spec:
       labels:
         app: hello-world
     spec:
+      imagePullSecrets:
+      - name: regcred
       containers:
-      - image:  docker/welcome-to-docker:latest
-        name: hello-world
+      - name: hello-world
+        image: ramakrishna8254/week:v1
+        imagePullPolicy: Always
         ports:
-        - containerPort: 80
+          - containerPort: 80
+
+    
+     
