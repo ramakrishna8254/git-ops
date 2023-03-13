@@ -14,7 +14,7 @@ spec:
         app: hello-world
     spec:
       containers:
-      - image: rancher/hello-world:v0.1.2
+      - image: ramakrishna8254/week:v2
         name: hello-world
         ports:
         - containerPort: 80
