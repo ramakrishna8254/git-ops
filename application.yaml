@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: raja-app
-  namespace: argocd
+  namespace: cloud-dev
 spec:
   project: default
 
@@ -12,4 +12,4 @@ spec:
     path: dev
   destination: 
     server: https://kubernetes.default.svc
-    namespace: argocd
+    namespace: cloud-dev
